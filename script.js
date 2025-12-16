@@ -63,6 +63,13 @@ window.addEventListener("scroll", () => {
     });
   });
 
+//Home image animation
+window.addEventListener("load", () => {
+    const heroImg = document.querySelector(".hero-img");
+    if (heroImg) {
+        heroImg.classList.add("show");
+    }
+});
  
 
 
