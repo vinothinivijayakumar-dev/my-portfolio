@@ -33,7 +33,7 @@ window.addEventListener("scroll", () => {
 
 //Tying effect
   const typingElement = document.querySelector(".typing-text");
-  const text = "Frontend Developer | Aspiring Full Stack Developer";
+  const text = "Frontend Developer | Aspiring Full Stack Web Developer";
   let index = 0;
 
   function type() {
